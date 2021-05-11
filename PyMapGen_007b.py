@@ -23,11 +23,11 @@ import pyttsx3
 import pygame
 from pygame.locals import *
 import time
-from rpg_tools.mapper import display_map
+from mapper import display_map
 import os
 import logging
-from rpg_tools.constants import *
-from rpg_tools.constants import __app__
+from constants import *
+from constants import __app__
 
 engine = pyttsx3.init()
 

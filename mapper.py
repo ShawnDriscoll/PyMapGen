@@ -6,8 +6,8 @@ from math import cos, sin
 import os
 import logging
 import sys
-from rpg_tools.constants import __app__
-from rpg_tools.constants import *
+from constants import __app__
+from constants import *
 
 __version__ = '1.0'
 __release__ = '1.0.2b'
