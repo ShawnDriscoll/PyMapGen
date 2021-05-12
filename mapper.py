@@ -945,7 +945,7 @@ def display_map(xx=0, yy=0, zoom=1, grid_style='RECT_grid', zone_style='circled'
                                         world_name = world_name.upper()
                                     world_name_font = pygame.font.SysFont('Eras ITC Demi', 18, False, False)
                                     world_name_text = world_name_font.render(world_name, True, world_name_color)
-                                    world_uwp_font = pygame.font.SysFont('OCR A Extended', 10, False, False)
+                                    world_uwp_font = pygame.font.SysFont('Eras ITC Demi', 14, False, False)
                                     if trade_code:
                                         world_uwp_text = world_uwp_font.render(line[remarks_tab:remarks_tab+20], True, white)
                                     else:
