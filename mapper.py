@@ -1181,9 +1181,9 @@ if __name__ == '__main__':
     mapper_log.info('mapper was run without display_map() called.  Help will be sent if needed.')
     print()
     if len(sys.argv) < 2:
-        print("     Type 'mapper.py -H' for help")
-    elif sys.argv[1] in ['-H', '/h', '--help', '-?', '/?']:
+        print("     Type 'mapper.py -h' for help")
+    elif sys.argv[1] in ['-h', '/h', '--help', '-?', '/?']:
         print('     mapper is a module (containing a display_map function)')
         print('     that needs to be imported by PyMapGen.')
     else:
-        print("     Type 'mapper.py -H' for help")
+        print("     Type 'mapper.py -h' for help")
