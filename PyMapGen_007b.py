@@ -6,7 +6,7 @@
 
 """
 PyMapGen 0.0.7 Beta
------------------
+-------------------
 
 This program displays Traveller sectors and subsectors.
 
@@ -36,30 +36,12 @@ reg_voice_path = 'HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Token
 voice = {'US Zira':     {'Name': 'TTS_MS_EN-US_ZIRA_11.0',
                          'Rate': -50,
                          'Volume': -0.0},
-         'UK Woman':    {'Name': 'eSpeak_1',
-                         'Rate': -130,
-                         'Volume': -0.0},
-         'UK Man':      {'Name': 'eSpeak_2',
-                         'Rate': -120,
-                         'Volume': -0.0},
          'US David':    {'Name': 'TTS_MS_EN-US_DAVID_11.0',
                          'Rate': -60,
-                         'Volume': -0.0},
-         'GB Hazel':    {'Name': 'TTS_MS_EN-GB_HAZEL_11.0',
-                         'Rate': -50,
-                         'Volume': -0.0},
-         'DE Hedda':    {'Name': 'TTS_MS_DE-DE_HEDDA_11.0',
-                         'Rate': -50,
-                         'Volume': -0.0},
-         'CN Huihui':   {'Name': 'TTS_MS_ZH-CN_HUIHUI_11.0',
-                         'Rate': -50,
-                         'Volume': 0.0},
-         'ZH-HK Tracy': {'Name': 'TTS_MS_ZH-HK_TRACY_11.0',
-                         'Rate': -50,
                          'Volume': -0.0}
         }
 
-speaker = 'US Zira'  # Your system's default voice will be used if speaker value is not found in registry.
+speaker = 'US David'  # Your system's default voice will be used if speaker value is not found in registry.
 
 rate = engine.getProperty('rate')
 engine.setProperty('rate', rate + voice[speaker]['Rate'])
@@ -439,7 +421,7 @@ def main(voice_muted, grid_style, zone_style, trade_code, see_thru, show_loc, sh
     
 if __name__ == '__main__':
     
-    voice_muted = False
+    voice_muted = True
     grid_style = 'RECT_grid'
     zone_style = 'circled'
     trade_code = False
