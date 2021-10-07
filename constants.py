@@ -16,6 +16,6 @@ SCREEN_SIZE = (int(COLUMNS*32*X_SPACING), int(ROWS*40*Y_SPACING))
 
 TRANSPARENT = (255,0,255)
 
-#print 'SCREEN_SIZE =', SCREEN_SIZE
+#print('SCREEN_SIZE =', SCREEN_SIZE)
 
 __app__ = 'PyMapGen 0.0.7 (Beta)'
