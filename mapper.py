@@ -583,11 +583,11 @@ def _hexagon(surface, color, pos, radius, thickness, see_thru=False):
 
 def display_map(xx=0, yy=0, zoom=1, grid_style='RECT_grid', zone_style='circled', trade_code=False, see_thru=False, show_loc=True, show_grid=True, subxx=0, subyy=0):
     
-    log = logging.getLogger('PyMapGen_0.0.7b.mapper')
+    log = logging.getLogger('PyMapGen_0.0.8b.mapper')
 
     # was information for this program asked for?
     if xx == 'info':
-        ver = 'mapper, release version ' + __release__ + ' for Python 3.9.5'
+        ver = 'mapper, release version ' + __release__ + ' for Python 3.9.7'
         mapper_log.info('Reporting: mapper release version: %s' % __release__)
         return __version__, ver
 
@@ -700,17 +700,17 @@ def display_map(xx=0, yy=0, zoom=1, grid_style='RECT_grid', zone_style='circled'
                             read_line += 1
                             if read_line == 4:
                                 sector_name = line[2:len(line)-1]
-                                #print sector_x, sector_y, (xx, yy)
+                                #print(sector_x, sector_y, (xx, yy))
                                 if sector_x == xx and sector_y == -yy:
                                     voiced_sector_name = sector_name
-                                #print sector_name
+                                #print(sector_name)
                                 sector_names.append(sector_name)
                                 sectors_filled[sect_point] = 1
                                 sect_point += 1
                             if read_line == 5:
                                 sector_offset = eval(line[2:len(line)-1])
-                                #print sector_offset,
-                                #print sector_offset[0], -sector_offset[1]
+                                #print(sector_offset, end=' ')
+                                #print(sector_offset[0], -sector_offset[1])
                                 added_sectors[sector_name] = (sector_offset[0], -sector_offset[1])
                             if line[:3] == 'Hex':
                                 name_tab = line.find('Name')
@@ -722,7 +722,7 @@ def display_map(xx=0, yy=0, zoom=1, grid_style='RECT_grid', zone_style='circled'
                                 allegiance_length = line[allegiance_tab:allegiance_tab+6].find(' ')
                             if line[:1] != '#' and line[:1] != '-' and line[:1] != 'H' and len(line) > 3:
                                 if int(line[:4]) > 0:
-                                    #print line[allegiance_tab:allegiance_tab+allegiance_length], len(line[allegiance_tab:allegiance_tab+allegiance_length])
+                                    #print(line[allegiance_tab:allegiance_tab+allegiance_length], len(line[allegiance_tab:allegiance_tab+allegiance_length]))
                                     if line[allegiance_tab:allegiance_tab+allegiance_length] not in allegiance_color:
                                         color = white
                                     else:

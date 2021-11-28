@@ -1,4 +1,4 @@
-**PyMapGen 0.0.7b for Python 3.9**
+**PyMapGen 0.0.8b for Python 3.9**
 ==================================
 
 **PyMapGen** is a Python 3.9 program for viewing Traveller RPG stellar maps. Of course, it's a much smaller project than what's going on over at https://github.com/inexorabletash/travellermap
@@ -8,7 +8,7 @@
 
 
 The Traveller game in all forms is owned by Far Future Enterprises.
-Copyright 1977 - 2021 Far Future Enterprises.
+Copyright 1977 - 2022 Far Future Enterprises.
 Traveller is a registered trademark of Far Future Enterprises.
 
 .. image:: images/video.png
@@ -37,9 +37,9 @@ Requirements
 
    Because CMD may have some colored text messages for debugging.
    
-* **pygame 2.0.1**
+* **pygame 2.1.0**
 
-   PyGame is used to draw the maps. It's basically a Python wrapper for SDL 2.0.14, which PyGame includes.
+   PyGame is used to draw the maps. It's basically a Python wrapper for SDL 2.0.16, which PyGame includes.
 
 
 Warning
