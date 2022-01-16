@@ -31,7 +31,7 @@ Requirements
 
 * **pyttsx3 2.90**
 
-   MapGen speaks in Zira's voice (her voice comes with Windows). Can be changed to a different voice in the source.
+   PyMapGen speaks in Zira's voice (her voice comes with Windows). Can be changed to a different voice in the source.
 
 * **colorama 0.4.4**
 
