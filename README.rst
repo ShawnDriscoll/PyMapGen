@@ -55,7 +55,7 @@ Click on a sector to center it.
 
 Dragging a sector (or pressing the arrow keys) will scroll the map.
 
-The mouse wheel will zoom the map in and out while pointing.
+The ``mouse wheel`` will zoom the map in and out while pointing.
 
 Pressing ``m`` will toggle the computer's voice on/off.
 
@@ -74,6 +74,34 @@ Pressing ``l`` will toggle the world system locations on/off.
 Pressing ``g`` will toggle the hex/rectangle grid on/off.
 
 Pressing ``ESC`` will exit the program.
+
+.. |ss| raw:: html
+
+    <strike>
+
+.. |se| raw:: html
+
+    </strike>
+
+Things To-Do
+------------
+
+| Add subsector names.
+| Add trade routes.
+| Instruction manual.
+| Cheat codes.
+|ss|
+
+| Port over to Python 3.9 from 2.5.
+| Start on a To-Do.
+
+|se|
+
+**Known History**
+
+* v0.0.8b
+
+  Removed 3rd-party voices.
 
 
 Contact
