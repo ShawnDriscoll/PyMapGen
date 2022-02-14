@@ -101,6 +101,8 @@ Things To-Do
 
 * v0.0.8b
 
+  Fixed the blue Allegiances.
+  
   Removed 3rd-party voices.
 
 
