@@ -1,4 +1,4 @@
-**PyMapGen 0.0.8b for Python 3.9**
+**PyMapGen 0.1.0b for Python 3.9**
 ==================================
 
 **PyMapGen** is a Python 3.9 program for viewing Traveller RPG stellar maps. Of course, it's a much smaller project than what's going on over at https://github.com/inexorabletash/travellermap
@@ -28,6 +28,10 @@ Requirements
 * **Windows 10**
 
    Not functional in OSX or Linux.
+   
+* **Python 3.9.10**
+   
+  This code was written using the C implementation of Python version 3.9.10. Also known as CPython.
 
 * **pyttsx3 2.90**
 
@@ -86,6 +90,7 @@ Pressing ``ESC`` will exit the program.
 Things To-Do
 ------------
 
+| Add more world types.
 | Add subsector names.
 | Add trade routes.
 | Instruction manual.
@@ -99,6 +104,10 @@ Things To-Do
 
 **Known History**
 
+* v0.1.0b
+
+  A differentiation has now been made between barren and dieback worlds.
+  
 * v0.0.8b
 
   Fixed the blue Allegiances.
