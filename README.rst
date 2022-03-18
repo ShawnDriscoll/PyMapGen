@@ -90,6 +90,7 @@ Pressing ``ESC`` will exit the program.
 Things To-Do
 ------------
 
+| Remove clipping at bottom of subsectors.
 | Add more world types.
 | Add subsector names.
 | Add trade routes.
