@@ -28,19 +28,15 @@ Requirements
 * **Windows 10**
 
    Not functional in OSX or Linux.
-   
+
 * **Python 3.9.10**
-   
+
   This code was written using the C implementation of Python version 3.9.10. Also known as CPython.
 
 * **pyttsx3 2.90**
 
    PyMapGen speaks in Zira's voice (her voice comes with Windows). Can be changed to a different voice in the source.
 
-* **colorama 0.4.4**
-
-   Because CMD may have some colored text messages for debugging.
-   
 * **pygame 2.1.0**
 
    PyGame is used to draw the maps. It's basically a Python wrapper for SDL 2.0.16, which PyGame includes.
@@ -98,12 +94,17 @@ Things To-Do
 | Cheat codes.
 |ss|
 
+| Removed requirement for colorama.
 | Port over to Python 3.9 from 2.5.
 | Start on a To-Do.
 
 |se|
 
 **Known History**
+
+* v0.2.0b
+
+  Removed requirement for colorama.
 
 * v0.1.0b
 
