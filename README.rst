@@ -27,7 +27,7 @@ Requirements
 
 * **Windows 10**
 
-   Not functional in OSX or Linux.
+  Not functional in OSX or Linux.
 
 * **Python 3.9**
 
@@ -35,11 +35,11 @@ Requirements
 
 * **pyttsx3 2.90**
 
-   PyMapGen speaks in Zira's voice (her voice comes with Windows). Can be changed to a different voice in the source.
+  PyMapGen speaks in Zira's voice (her voice comes with Windows). Can be changed to a different voice in the source.
 
 * **pygame 2.1.2**
 
-   PyGame is used to draw the maps. It's basically a Python wrapper for SDL 2.0.18, which PyGame includes.
+  PyGame is used to draw the maps. It's basically a Python wrapper for SDL 2.0.18, which PyGame includes.
 
 
 Warning
