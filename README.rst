@@ -1,4 +1,4 @@
-**PyMapGen 0.2.0b for Python 3.9**
+**PyMapGen 0.2.1b for Python 3.9**
 ==================================
 
 **PyMapGen** is a Python 3.9 program for viewing Traveller RPG stellar maps. Of course, it's a much smaller project than what's going on over at https://github.com/inexorabletash/travellermap
