@@ -29,17 +29,17 @@ Requirements
 
    Not functional in OSX or Linux.
 
-* **Python 3.9.10**
+* **Python 3.9**
 
-  This code was written using the C implementation of Python version 3.9.10. Also known as CPython.
+  This code was written using the C implementation of Python version 3.9. Also known as CPython.
 
 * **pyttsx3 2.90**
 
    PyMapGen speaks in Zira's voice (her voice comes with Windows). Can be changed to a different voice in the source.
 
-* **pygame 2.1.0**
+* **pygame 2.1.2**
 
-   PyGame is used to draw the maps. It's basically a Python wrapper for SDL 2.0.16, which PyGame includes.
+   PyGame is used to draw the maps. It's basically a Python wrapper for SDL 2.0.18, which PyGame includes.
 
 
 Warning
@@ -101,6 +101,10 @@ Things To-Do
 |se|
 
 **Known History**
+
+* v0.2.1b
+
+  Compatible with pygame 2.1.2.
 
 * v0.2.0b
 
