@@ -1,4 +1,4 @@
-**PyMapGen 0.2.1b for Python 3.9**
+**PyMapGen 0.2.2b for Python 3.9**
 ==================================
 
 **PyMapGen** is a Python 3.9 program for viewing Traveller RPG stellar maps. Of course, it's a much smaller project than what's going on over at https://github.com/inexorabletash/travellermap
@@ -94,6 +94,7 @@ Things To-Do
 | Cheat codes.
 |ss|
 
+| Desert, Agricultural, and Barren worlds need refreshes.
 | Removed requirement for colorama.
 | Port over to Python 3.9 from 2.5.
 | Start on a To-Do.
@@ -101,6 +102,10 @@ Things To-Do
 |se|
 
 **Known History**
+
+* v0.2.2b
+
+  Desert, Agricultural, and Barren worlds are better displayed.
 
 * v0.2.1b
 
