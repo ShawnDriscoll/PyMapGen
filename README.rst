@@ -94,6 +94,7 @@ Things To-Do
 | Cheat codes.
 |ss|
 
+| Zero-Water worlds got a make-over in mapper 1.2.1b.
 | Desert, Agricultural, and Barren worlds need refreshes.
 | Removed requirement for colorama.
 | Port over to Python 3.9 from 2.5.
