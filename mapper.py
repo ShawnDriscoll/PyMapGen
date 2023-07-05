@@ -6,10 +6,11 @@ import os
 import logging
 import sys
 from constants import __app__
+from constants import __py_version_req__
 from constants import *
 
 __version__ = '1.2'
-__release__ = '1.2.1b'
+__release__ = '1.2.5b'
 __author__ = 'Shawn Driscoll <shawndriscoll@hotmail.com>\nshawndriscoll.blogspot.com'
 
 mapper_log = logging.getLogger('mapper')
@@ -617,7 +618,7 @@ def display_map(xx=0, yy=0, zoom=1, grid_style='RECT_grid', zone_style='circled'
 
     # was information for this program asked for?
     if xx == 'info':
-        ver = 'mapper, release version ' + __release__ + ' for Python 3.9.13'
+        ver = 'mapper, release version ' + __release__ + ' for Python ' + str(__py_version_req__)
         mapper_log.info('Reporting: mapper release version: %s' % __release__)
         return __version__, ver
 

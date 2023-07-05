@@ -1,7 +1,7 @@
-**PyMapGen 0.2.2b for Python 3.9**
+**PyMapGen 0.2.5b for Python 3.11**
 ==================================
 
-**PyMapGen** is a Python 3.9 program for viewing Traveller RPG stellar maps. Of course, it's a much smaller project than what's going on over at https://github.com/inexorabletash/travellermap
+**PyMapGen** is a Python 3.11 program for viewing Traveller RPG stellar maps. Of course, it's a much smaller project than what's going on over at https://github.com/inexorabletash/travellermap
 
 
 .. figure:: images/mapgen_cover_art.png
@@ -27,25 +27,20 @@ Requirements
 
 * **Windows 10**
 
-  Not functional in OSX or Linux.
+  Not tested on Windows 11.
 
-* **Python 3.9**
+* **Python 3.11**
 
-  This code was written using the C implementation of Python version 3.9. Also known as CPython.
+  This code was written using the C implementation of Python version 3.11. Also known as CPython.
 
 * **pyttsx3 2.90**
 
   PyMapGen speaks in Zira's voice (her voice comes with Windows). Can be changed to a different voice in the source.
 
-* **pygame 2.1.2**
+* **pygame 2.4.0**
 
-  PyGame is used to draw the maps. It's basically a Python wrapper for SDL 2.0.18, which PyGame includes.
+  PyGame is used to draw the maps. It's basically a Python wrapper for SDL 2.26.4, which PyGame includes.
 
-
-Warning
--------
-
-**PyMapGen** will not work with **Python 2.7-**.
 
 
 Usage
@@ -103,6 +98,10 @@ Things To-Do
 |se|
 
 **Known History**
+
+* v0.2.5b
+
+  Updated to Python 3.11.0.
 
 * v0.2.2b
 
