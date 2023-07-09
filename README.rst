@@ -1,5 +1,5 @@
 **PyMapGen 0.2.5b for Python 3.11**
-==================================
+===================================
 
 **PyMapGen** is a Python 3.11 program for viewing Traveller RPG stellar maps. Of course, it's a much smaller project than what's going on over at https://github.com/inexorabletash/travellermap
 
@@ -81,6 +81,7 @@ Pressing ``ESC`` will exit the program.
 Things To-Do
 ------------
 
+| Printing a PDF from the screen.
 | Remove clipping at bottom of subsectors.
 | Add more world types.
 | Add subsector names.
@@ -89,6 +90,7 @@ Things To-Do
 | Cheat codes.
 |ss|
 
+| Update requirements for Python 3.11.0 use.
 | Zero-Water worlds got a make-over in mapper 1.2.1b.
 | Desert, Agricultural, and Barren worlds need refreshes.
 | Removed requirement for colorama.
