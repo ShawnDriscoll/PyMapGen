@@ -103,6 +103,10 @@ Things To-Do
 
 **Known History**
 
+* v0.2.6b
+
+  Searches for computer voices and displays their names in a list to choose from.
+
 * v0.2.5b
 
   Updated to Python 3.11.0.
