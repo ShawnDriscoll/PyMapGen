@@ -25,9 +25,9 @@ Traveller is a registered trademark of Far Future Enterprises.
 Requirements
 ------------
 
-* **Windows 10**
+* **Windows 11**
 
-  Not tested on Windows 11.
+  It has been tested on Windows 10.
 
 * **Python 3.11**
 
