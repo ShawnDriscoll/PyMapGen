@@ -1,4 +1,4 @@
-**PyMapGen 0.2.6b for Python 3.11**
+**PyMapGen 0.2.7b for Python 3.11**
 ===================================
 
 **PyMapGen** is a Python 3.11 program for viewing Traveller RPG stellar maps. Of course, it's a much smaller project than what's going on over at https://github.com/inexorabletash/travellermap
@@ -8,7 +8,7 @@
 
 
 The Traveller game in all forms is owned by Far Future Enterprises.
-Copyright 1977 - 2023 Far Future Enterprises.
+Copyright 1977 - 2024 Far Future Enterprises.
 Traveller is a registered trademark of Far Future Enterprises.
 
 .. image:: images/video.png
@@ -86,12 +86,12 @@ Things To-Do
 | Printing a PDF from the screen.
 | Remove clipping at bottom of subsectors.
 | Add more world types.
-| Add subsector names.
 | Add trade routes.
 | Instruction manual.
 | Cheat codes.
 |ss|
 
+| Add subsector names.
 | Update requirements for Python 3.11.0 use.
 | Zero-Water worlds got a make-over in mapper 1.2.1b.
 | Desert, Agricultural, and Barren worlds need refreshes.
@@ -102,6 +102,10 @@ Things To-Do
 |se|
 
 **Known History**
+
+* v0.2.7b
+
+  Displays subsector names.
 
 * v0.2.6b
 
