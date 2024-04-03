@@ -72,13 +72,6 @@ Pressing ``g`` will toggle the hex/rectangle grid on/off.
 
 Pressing ``ESC`` will exit the program.
 
-.. |ss| raw:: html
-
-    <strike>
-
-.. |se| raw:: html
-
-    </strike>
 
 Things To-Do
 ------------
@@ -89,19 +82,10 @@ Things To-Do
 | Add trade routes.
 | Instruction manual.
 | Cheat codes.
-|ss|
 
-| Add subsector names.
-| Update requirements for Python 3.11.0 use.
-| Zero-Water worlds got a make-over in mapper 1.2.1b.
-| Desert, Agricultural, and Barren worlds need refreshes.
-| Removed requirement for colorama.
-| Port over to Python 3.9 from 2.5.
-| Start on a To-Do.
 
-|se|
-
-**Known History**
+Known History
+-------------
 
 * v0.2.7b
 

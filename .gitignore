@@ -1,6 +1,6 @@
 
 #############
-## PyDiceroll
+## pydice
 #############
 Logs/
 *.log
@@ -13,7 +13,6 @@ Logs/
 #############
 ## Windows
 #############
-
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -26,10 +25,12 @@ Desktop.ini
 ## Python
 ############
 __pycache__/
+*.pyc
 
-#################
-# Python Packages
-#################
+
+##################
+## Python Packages
+##################
 *.egg
 *.egg-info
 eggs/
@@ -57,3 +58,20 @@ temp/
 ##############
 *.ui
 *.qrc
+*.bat
+
+
+##############
+## PyInstaller
+##############
+*.spec
+build/
+dist/
+*.ico
+
+
+##########
+## Folders
+##########
+#images/
+sounds/
